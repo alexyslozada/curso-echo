@@ -1,0 +1,7 @@
+method=GET, uri=/, status=404
+method=GET, uri=/robots.txt, status=404
+method=GET, uri=/favicon.ico, status=404
+method=GET, uri=/, status=200
+method=GET, uri=/robots.txt, status=404
+{"time":"2018-09-05T19:12:05.707409551-05:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/","status":200, "latency":21022,"latency_human":"21.022µs","bytes_in":0,"bytes_out":10}
+{"time":"2018-09-05T19:13:36.397128841-05:00","id":"","remote_ip":"::1","host":"localhost:7878","method":"GET","uri":"/?id=500&pag=5&limit=3","status":200, "latency":5380,"latency_human":"5.38µs","bytes_in":0,"bytes_out":10}
